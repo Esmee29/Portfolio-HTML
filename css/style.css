@@ -843,6 +843,19 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.bottom {
+  margin-bottom: 20px;
+}
+
+.bag-image {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1ex solid #185ad4;
+  padding: 20px;
+  background-color: #fff;
+}
+
 pre {
   padding: 1.5rem;
   margin: 1.5rem 0;
