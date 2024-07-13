@@ -1,0 +1,114 @@
+a:hover{
+    text-decoration: underline;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    height: auto;
+    line-height: 35px;
+    padding: 6px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: $white;
+    row-gap: 0.625em;
+  }
+  html{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+ 
+body {
+  margin:0;
+  background: linear-gradient(-45deg, #3bcee9, #329ff4, #185ad4);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-weight:900;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+.h1{
+  font-weight:900;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+h2 {
+    font-weight:300;
+    letter-spacing: 2px;
+    font-size:24px;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  
+  h4 {
+    font-weight: 600;
+    color: #329FF4
+  }
+  h5{
+        font-size: 1rem;
+    
+}
+p {
+  letter-spacing: 1px;
+  font-size:16px;
+  color: black;
+  font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+}
+
+a:hover{
+  text-decoration: none; 
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+
+}
+
+
+
+.bubble {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #fff;
+  border: 2px solid #185ad4;
+  width: fit-content;
+  margin-left: 10px;
+}
+
+.dynamic-text {
+  font-weight: bold;
+  color: #185ad4;
+  animation: fadeInOut 6s infinite;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.container-bubble {
+  font-size: 24px;
+  display: inline-block;
+}

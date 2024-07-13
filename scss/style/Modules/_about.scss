@@ -1,0 +1,51 @@
+.about-container {
+    margin: 80px 1rem 0 1rem;
+    border-top: 3px solid $white;
+    border: 1ex solid $color-primary;
+    padding: 20px;
+    background-color: white;  
+}
+.about-container-tech{
+    margin: 50px 1rem 0 1rem;
+    border-top: 3px solid $white;
+    border: 1ex solid $color-primary;
+    background-color: white;  
+}
+.about h3{
+    color: $color-primary;
+}
+  
+#about{
+    padding-top: 0.01rem;
+    padding-bottom: 3rem;
+}   
+.about-tools li{
+    color: $color-primary;
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;  
+}
+.about-tools{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }           
+.adobe{
+    height:30px;
+    width: 30px;
+            
+}
+.about-icons{
+    font-size: 16px;
+    color:$color-secondary;
+    margin:0 10px;
+  }
+  .about-tools h5 {
+    display: none;
+}
+
+.about-tools:hover h5 {
+    display: block;
+}

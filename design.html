@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/356a53e20f.js" crossorigin="anonymous"></script>
+
+          
+    <title>
+    Esmee Fulcher | Web Developer
+    | Portfolio
+</title>
+</head>
+    
+<body>
+   <!-- Hamburger-->
+<div class="primary-nav__hamburger ishidden__hamburger">
+    <button id="btn__hamburger" type="button" class="primary-nav__hamburger hamburger hamburger-spin-backwards inactive">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+            <g class="primary-nav__menu-button-burger-lines">
+                <line x1="20" y1="25" x2="80" y2="25" />
+                <line x1="20" y1="50" x2="80" y2="50" />
+                <line x1="20" y1="75" x2="80" y2="75" />
+            </g>
+            <g class="primary-nav__menu-button-cross-lines">
+                <line x1="28" y1="28" x2="72" y2="72" />
+                <line x1="28" y1="72" x2="72" y2="28" />
+            </g>
+        </svg>
+    </button>
+</div>
+<aside>
+    <nav class="ishidden__nav primary-nav">
+        <a href="index.html" class="primary-nav__logo">
+            EF
+        </a>
+        <div class="primary-nav__flex-container">
+            <ul class="primary-nav__pages">
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown"><a id="primary-nav__portfolio" href="index.html#projects">Portfolio</a>
+                    <div class="dropdown-content">
+                        <a href="design.html#design-projects">Design</a>
+                        <a href="dev.html#dev-projects">Development</a>
+                    </div>
+                </li>
+                <li><a href="code.html">Coding Examples</a></li>
+                <li><a href="course.html">SCS Scheme</a></li>
+                <li><a id="primary-nav__contact" href="#contact">Contact</a></li>
+            </ul>
+            <ul class="primary-nav__socials">
+                <li>
+                    <a href="https://www.linkedin.com/in/esmee-fulcher-261b3321a/" target="_blank">
+                        <i class="devicon-linkedin-plain social link"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Esmee29/" target="_blank">
+                        <i class="devicon-github-original social git"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/esmeefdesigns/" target="_blank">
+                        <i class="fa-brands fa-instagram social insta"></i>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+</aside>
+            <div class="main-body" id="main">
+                <div class="header" id="header">
+                    <!--Content before waves-->
+                    <div class="inner-header">
+                        <h1 id="header1"> Esmee Fulcher</h1>
+                        <div class="container-bubble">
+                            I'm a <span id="bubble" class="bubble">
+                                <span id="dynamic-text" class="dynamic-text"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="scroll-down">
+                        <a href="#projects" class="scroll">
+                            <i class="fa-solid fa-arrow-down footer-arrow"></i>
+                            <br>
+                            <h4>Scroll down</h4>
+                        </a>
+                    </div>
+                    <!--Waves Container-->
+                    <div>
+                        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                            <defs>
+                                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                            </defs>
+                            <g class="parallax">
+                                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                            </g>
+                        </svg>
+                    </div>
+                    <!--Waves end-->
+                
+                </div>
+                <div class="page-content"><!--Everything under header -->
+                    <section id="design-projects" class="projects">
+                        <div class="index-title">
+                            <h2 class="h1">Design Projects</h2>
+                        </div>
+                    
+                        <div class="project-grid">
+                    
+                            <div class="card">
+                                <img src="Images/Supersonic.webp" class="image-card-app" alt="Supersonic app project">
+                                <div class="card__content">
+                                    <p class="card__title">Supersonic</p>
+                                    <p class="card__description">Supersonic is an conceptual app designed for music enthusiasts, guaranteeing they never miss out on the concerts they desire. Presently in the form of a Figma prototype,
+                                        my goal is to develop it into a fully functional coded app.</p>
+                                    <br>
+                                    <a href="supersonic.html"><button class="card__button">View Case Study</button></a>
+                    
+                                </div>
+                    
+                            </div>
+                            <div class="card">
+                                <img src="Images/forager-app.webp" class="image-card-app" alt="Forager app project">
+                                <div class="card__content">
+                                    <p class="card__title">Forager</p>
+                                    <p class="card__description">Forager: Conceptual app empowering local exploration and foraging. While it currently exists as a Figma prototype, my objective is to transform it into a fully developed coded app.</p>
+                                    <br>
+                                    <a href="forager.html"><button class="card__button">View Case Study</button></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Images\Fulcher_Esmee_H.jpg" class="image-card-app" alt="P.O.W. Story project">
+                                <div class="card__content">
+                                    <p class="card__title">P.O.W. Story</p>
+                                    <p class="card__description">During the Second World War, Charles Bacon, my Great-Grandfather, was a Prison of war in Italy, Germany and Poland and this project tells his journey and story as a POW. </p>
+                                    <br>
+                                    <a href="powStory.html"><button class="card__button">View Case Study</button></a>
+                                </div>
+                    
+                            </div>
+                            <div class="card">
+                                <img src="Images/baby.png" class="image-card-app" alt="Parenting Pod app project">
+                                <div class="card__content">
+                                    <p class="card__title">Parenting Pod</p>
+                                    <p class="card__description">An app concept tailored for parents of young children, with podcasts, sleep aid, and meditations for mental health support, day or night. Currently an Adobe XD prototype, aiming for a fully developed app.</p>
+                                    <br>
+                                    <a href="parentingPod.html"><button class="card__button">View Case Study</button></a>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    
+                    </section>        </div>
+        
+        
+                <footer>
+            <div class="footer">
+                <div class="scroll-container">
+                    <a href="#header" class="scroll">
+                        <i class="fa-solid fa-arrow-up footer-arrow"></i>
+                        <br>
+                        <h4>Back to top</h4>
+                    </a>
+                </div>
+        
+                <!--Waves Container-->
+                <div>
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                        </g>
+                    </svg>
+                </div>
+                <!--Waves end-->
+        
+            </div>
+        
+        
+        
+        </footer>
+        </div>
+
+
+
+<script src="javaScript/slick-1.8.1/jquery-3.7.1.min.js"></script>
+<script src="javaScript/slick-1.8.1/slick/slick.min.js"></script>
+<script src="javaScript/main.js"></script>
+<script src="javaScript/navSidebar.js"></script>
+<script src="javaScript/form-validation.js"></script>
+<script src="javaScript/slide-show.js"></script>
+<script src="javaScript/dropdown.js"></script>
+</body>
+</html>

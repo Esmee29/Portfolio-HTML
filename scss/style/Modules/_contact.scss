@@ -1,0 +1,190 @@
+.get-in-touch h3 {
+    color: #185ad4;
+    padding-top: 30px;
+}
+.contact-form-content {
+    display: grid;
+    width: 100%;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+}
+.contact-container{
+    width: 75%;
+    align-self: center;
+    margin: 3rem auto;
+    background-color: white;
+}
+
+input[type=text], textarea[type=text] {
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    position: center;
+    width: 100%;
+    background-color: $color-secondary;
+    color: $black;
+    border: 2px solid $color-primary;
+    border-radius: 2px;
+}
+input[type=email], textarea[type=email] {
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    position: center;
+    width: 100%;
+    background-color: $color-secondary;
+    color: $black;
+    border: 2px solid $color-primary;
+    border-radius: 2px;
+}
+input, textarea {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.first-name {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+}
+.last-name {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+}
+
+.email {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+}
+
+
+@media (min-width: 1260px){
+.message {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+}
+.message {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+}
+@media (min-width: 1260px){
+    .subject{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    }
+    .subject {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: left;
+    }
+#message {
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    position: center;
+    width: 100%;
+    background-color: $color-secondary;
+    color: $black;
+    border: 2px solid $color-primary;
+    border-radius: 2px;
+}
+
+.button-fill-submit{
+    flex: 1;
+    padding: 5px 15px;
+    margin: 25px;
+    border-radius: 999px;
+    border: 5px solid $color-primary;
+    font-size: 25px;
+    white-space: nowrap;
+    color: $black;
+    background: transparent;
+    background: url(https://i.imgur.com/8PFQWxB.png);
+    background-repeat: repeat-x;
+    background-position: 0 -100%;
+    transition: 2s ease;
+}
+.button-fill-submit:hover {
+    background-position: 500% 100%;
+    color: white;
+}
+
+button:nth-child{
+    filter: hue-rotate(340deg);
+}
+
+
+#first-name {
+    &::placeholder {
+        color: black;
+    }
+}
+#last-name {
+    &::placeholder {
+        color: black;
+    }
+}
+#email {
+    &::placeholder {
+        color: black;
+    }
+}
+#phone {
+    &::placeholder {
+        color: black;
+    }
+}
+#subject {
+    &::placeholder {
+        color: $black;
+    }
+}
+#message {
+    &::placeholder {
+        color: $black;
+    }
+}
+
+    .required {
+        font-weight: 600;
+        color: #272936 !important;
+    }
+    .required::after {
+        content: " *";
+        color: #d64541;
+    }
+
+        //messages
+        .error-msg{
+            display: flex;
+            justify-content: space-between;
+            background-color: #f2dede;
+            color: #a94442;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ebccd1;
+            border-radius: 2px;
+        }
+        .success-msg{
+            display: flex;
+            justify-content: space-between;
+            background-color: #ddffdd;
+            color: #00b67b;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #9ae9b2;
+            border-radius: 2px;
+    }
+    .close-btn{
+        
+        position: relative;
+        padding: 0;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+    }
+    

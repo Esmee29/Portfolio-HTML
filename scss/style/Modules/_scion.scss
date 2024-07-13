@@ -1,0 +1,56 @@
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.treehouse-container{
+    margin: 10px 1rem 0 1rem;
+    border-top: 3px solid $white;
+    border: 1ex solid $color-primary;
+    padding: 20px; 
+    background-color: $white;    
+}
+
+.image {
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.tree-title {
+    text-align: center;
+    color: $color-primary;
+    font-weight: 400;
+}
+
+.net li{
+    list-style:circle;
+    letter-spacing: 1px;
+  font-size:16px;
+  color: $black;
+  font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 10px;
+}
+.scion-container {
+    margin: 120px 1rem 30px 1rem;
+    border-top: 3px solid $white;
+    border: 1ex solid $color-primary;
+    padding: 20px;
+    background-color: $white;
+    }
+    .scion-container p{
+        font-size: 18px;
+        padding: 0 10px;
+        }
+        .tree-text{
+            font-size: 18px;
+            padding: 0 10px;
+        }
+    
+        #scion{
+            padding-top: 0.01rem;
+            padding-bottom: 3rem;
+        } 

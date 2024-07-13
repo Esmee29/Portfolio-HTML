@@ -1,0 +1,454 @@
+//base//
+
+p{
+    @include viewport(small) {
+        font-size: 1rem;
+    }
+    @include viewport(medium) {   
+    font-size: 1.5rem;
+    }
+    @include viewport(large) {   
+        font-size: 24px
+        }
+    @include viewport(x-large) {   
+        font-size: 1.5rem;
+        }
+    @include viewport(xx-large) {   
+        font-size: 2rem;
+        }      
+}
+h1{
+    @include viewport(small) {
+        font-size: 2rem;
+    }
+    @include viewport(medium) {   
+    font-size: 3rem;
+    } 
+    @include viewport(xx-large) {   
+        font-size: 6rem;
+        }     
+}
+
+.h1{
+    @include viewport(small) {
+        font-size: 2rem;
+    }
+    @include viewport(medium) {   
+    font-size: 3rem;
+    } 
+    @include viewport(xx-large) {   
+        font-size: 6rem;
+        }     
+  }
+h2{
+    @include viewport(small) {
+        font-size: 2rem;
+    }
+    @include viewport(medium) {   
+    font-size: 2rem;
+    }
+    @include viewport(xx-large) {   
+        font-size: 4rem;
+        }      
+}
+h3{
+    @include viewport(small) {
+        font-size: 2rem;
+    }
+    @include viewport(medium) {   
+    font-size: 2rem;
+    }
+    @include viewport(large) {   
+        font-size: 2rem;
+        }      
+    @include viewport(x-large) {   
+        font-size: 2rem;
+        }
+        @include viewport(xx-large) {   
+            font-size: 3rem;
+            }       
+}
+h4{
+    @include viewport(small) {
+        font-size: 1rem;
+    }
+    @include viewport(medium) {   
+    font-size: 1.5rem;
+    }
+    @include viewport(large) {   
+        font-size: 1rem;
+        }      
+    @include viewport(x-large) {   
+        font-size: 1.5rem;
+        }
+        @include viewport(xx-large) {   
+            font-size: 2rem;
+            }
+}
+//footer
+.scroll-up{
+    @include viewport(large) {   
+        margin-left: 14.5rem;
+        }      
+    @include viewport(x-large) {   
+        margin-left: 14.5rem;
+        }
+        @include viewport(xx-large) {   
+            margin-left: 14.5rem;
+            }
+      
+    }
+//sidebar nav//
+    .primary-nav__hamburger {
+        @include viewport(large){
+        display: none;
+    }
+    @include viewport(x-large){
+        display: none;
+    }
+    @include viewport(xx-large){
+        display: none;
+    }
+    }
+    @media (orientation: landscape){
+        .primary-nav {
+            overflow-x: auto;
+        }
+          }
+
+//about//
+.about-container {
+    @include viewport(small) { 
+        margin: 20px 10px;
+    }
+}
+
+.about-container-tech{
+    @include viewport(small) { 
+        margin: 20px 10px;
+    }
+    @include viewport(x-large) { 
+        height: 225px;
+    } 
+}
+.about-container {
+    @include viewport(small) { 
+        margin: 20px 10px;
+    }   
+.about-container-tech{
+    @include viewport(small) { 
+        margin: 20px 10px;
+    } 
+}
+
+.about-tools{
+    @include viewport(small) {
+        display: flex;
+        flex-wrap: wrap;
+        }
+    @include viewport(medium) { 
+        display: flex;
+        flex-wrap: wrap; 
+    }            
+}
+.adobe{
+    @include viewport(small) {
+        height:50px;
+        width: 50px;
+        margin-left: 25px;
+        }
+        @include viewport(medium) {
+        height: 60px;
+    width: 60px;
+    margin-left: 25px;
+        }              
+}
+}
+.about-tools{
+    @include viewport(small) {
+        display: flex;
+        flex-wrap: wrap;
+     }
+    @include viewport(medium) { 
+        display: flex;
+        flex-wrap: wrap; 
+    } }           
+.adobe{
+    @include viewport(small) {
+        height:50px;
+        width: 50px;
+        margin-left: 25px;
+     }
+     @include viewport(medium) {
+        height: 60px;
+    width: 60px;
+    margin-left: 25px;
+     }
+     @include viewport(large) {
+    margin-left: 15px
+     }
+     @include viewport(x-large) {
+        margin-left: 15px
+         }               
+}
+//contact//
+.contact-container{
+    @include viewport(small) {
+        max-width: 400px;
+     }
+     @include viewport(medium) {
+        max-width: 700px;
+     }
+}
+.first-name {
+        @include viewport(x-large) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        }
+    }
+.last-name {
+    @include viewport(x-large) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+}
+.email {
+    @include viewport(x-large) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        }
+}  
+.phone {
+    @include viewport(x-large) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+}
+}
+@media (min-width: 1260px){
+    .subject{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    }
+@media (min-width: 1260px){
+    .message {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    }
+    
+//header//
+.inner-header {
+    @include viewport(small){
+      height:85vh;
+    }
+    @include viewport(medium){
+        height:80vh;
+      }
+      @include viewport(large){
+        height:75vh;
+      }
+        @include viewport(x-large){
+            height:75vh;
+        }
+  @include viewport(xx-large){
+    height:75vh;
+}
+  }
+  
+  .header{
+    @include viewport(large){
+      margin-left: 6px;
+    }
+      @include viewport(x-large){
+        margin-left: 6px;
+}
+}
+//projects//
+.tools-title{
+    @include viewport(small) {
+        display: none;
+     }
+}
+.projects-block-tools{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-block-tools li{
+@include viewport(small) {
+   font-size: 1.8rem;
+}
+@include viewport(medium) { 
+    font-size: 1.8rem; 
+}
+}
+.primary-nav__pages li a {
+    @include viewport(small) {
+        padding: 1rem;
+     }
+     @include viewport(medium) { 
+        padding: 1rem; 
+     }
+     @include viewport(large) {
+        padding: 2rem 1rem; 
+     }
+     @include viewport(x-large) {
+        padding: 2rem 1rem;
+     }
+     @include viewport(xx-large) {
+        padding: 2rem 1rem;
+     }    
+  }
+.symbol{
+    @include viewport(small) {
+       font-size: 3rem;
+    }
+    @include viewport(medium) { 
+        font-size: 3rem; 
+    }
+    }
+.projects-block-button{
+    @include viewport(small) {
+        margin-bottom: 20px;
+     }
+     @include viewport(medium) {
+        margin-bottom: 20px;
+     }
+}
+
+.projects-block{
+    @include viewport(small) {
+        margin: 20px 20px;
+    }
+    @include viewport(medium) {   
+    max-width: 100%;
+    margin: 20px 10px;
+    }
+    @include viewport(large) {   
+        margin: 30px 10px
+        }
+    
+    @include viewport(x-large) {   
+        margin: 30px 10px
+        }
+        @include viewport(xx-large) {   
+            margin: 45px 10px
+            }
+}
+.project-grid {
+    @include viewport(medium) {
+        max-width: 600px;
+    margin: 0 auto;
+    }
+    @include viewport(large) {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: none;
+        margin: 0 1rem;
+    }
+    @include viewport(x-large) {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 1rem;
+    }
+    @include viewport(xx-large) {
+        grid-template-columns: repeat(3, 1fr);    
+    margin: 0 2rem;
+    gap: 2rem
+    }
+ }
+ .projects-grid{
+    @include viewport(small) {
+        margin: 0 20px;
+    }   
+ }
+ .projects-block:hover {
+    @include viewport(small) {
+        transform: translate(0, -5px);
+    transform: scale(0.95);
+    }
+    @include viewport(medium) {
+        transform: translate(0, -5px);
+    transform: scale(0.95);
+    }
+    
+  }
+  .projects{
+    @include viewport(x-large) {
+        width: 100%;
+    }
+    @include viewport(xx-large) {
+        width: 100%;
+    } 
+  }
+  .projects-block-tools h5{
+    @include viewport(small) {
+        display: none;
+    }
+    @include viewport(medium) {
+        display: none;
+    }  
+  }
+ //scion//
+ .content-grid {
+    @include viewport(small) {
+        display: flex;
+        flex-direction: column;
+    }
+    @include viewport(large) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @include viewport(x-large) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.treehouse-container{
+    @include viewport(small) {
+        margin:  0 10px;
+    }       
+}
+.net li{
+    @include viewport(small) {
+        font-size: 1rem;
+    }
+    @include viewport(medium) {   
+    font-size: 1rem;
+    }
+    @include viewport(large) {   
+        font-size: 1.5rem;
+        }
+    @include viewport(x-large) {   
+        font-size: 1.5rem;
+        }
+    @include viewport(xx-large) {   
+        font-size: 2rem;
+        } 
+}
+ul.net {
+    @include viewport(medium) {   
+        columns: 2;
+        }
+        @include viewport(large) {   
+            columns: 2;
+            }
+        @include viewport(x-large) {   
+            columns: 2;
+            }
+        @include viewport(xx-large) {   
+            columns: 2;
+            } 
+    
+}
+//code
+.code-title{
+    @include viewport(large) {
+        width: 83.8vw;;
+    }
+    @include viewport(x-large) {
+        width: 83.8vw;;
+    }
+    @include viewport(xx-large) {
+        width: 83.8vw;;
+    }
+}
+

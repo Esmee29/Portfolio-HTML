@@ -1,0 +1,94 @@
+pre{
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;   
+}
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+    
+        
+}
+code, pre {
+    background-color: $code;
+    color: $white;
+    font-size: 0.8rem;
+    text-align: start;
+    
+}
+.code-logo{
+    margin: 1.5rem 0;
+    padding: 0.5rem;   
+}
+#coding{
+    padding-top: 0.01rem;
+    padding-bottom: 3rem;
+    background-color: white;
+} 
+
+.drop-down-button {
+    font-weight: 600;
+    font-size: 36px;
+    color: #333645;
+    line-height: 1.875rem;
+    margin-bottom: 25px;
+    @include viewport(small){
+        font-size: 25px;
+    }
+}
+
+
+.drop-down {
+    overflow: hidden;
+    margin-bottom: 25px;
+    width: 75%;
+    align-self: center;
+    margin: 3.125rem auto;
+}
+.drop-down-content-show {
+    display: block;
+}
+.drop-down-content-hidden {
+    display: none;
+}
+
+.code-title{
+    margin: 50px 0 105px 0;
+    text-align: center;
+    color: $color-primary;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.section-content {
+    display: block;
+}
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+}
+code.hljs {
+    padding: 3px 5px;
+}
+.comments {
+    color: #959697;
+    font-style: italic;;
+}
+.purple-highlight {
+    color: #c678dd;
+}
+.orange-highlight {
+    color: #d19a66;
+}
+.green-highlight {
+    color: #98c379;
+}
+.blue-highlight {
+    color: #61aeee;
+}
+.red-highlight {
+    color: #ee6179;
+}

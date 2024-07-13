@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/356a53e20f.js" crossorigin="anonymous"></script>
+
+          
+    <title>
+    Esmee Fulcher | Web Developer
+    | Portfolio
+</title>
+</head>
+    
+<body>
+   <!-- Hamburger-->
+<div class="primary-nav__hamburger ishidden__hamburger">
+    <button id="btn__hamburger" type="button" class="primary-nav__hamburger hamburger hamburger-spin-backwards inactive">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+            <g class="primary-nav__menu-button-burger-lines">
+                <line x1="20" y1="25" x2="80" y2="25" />
+                <line x1="20" y1="50" x2="80" y2="50" />
+                <line x1="20" y1="75" x2="80" y2="75" />
+            </g>
+            <g class="primary-nav__menu-button-cross-lines">
+                <line x1="28" y1="28" x2="72" y2="72" />
+                <line x1="28" y1="72" x2="72" y2="28" />
+            </g>
+        </svg>
+    </button>
+</div>
+<aside>
+    <nav class="ishidden__nav primary-nav">
+        <a href="index.html" class="primary-nav__logo">
+            EF
+        </a>
+        <div class="primary-nav__flex-container">
+            <ul class="primary-nav__pages">
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown"><a id="primary-nav__portfolio" href="index.html#projects">Portfolio</a>
+                    <div class="dropdown-content">
+                        <a href="design.html#design-projects">Design</a>
+                        <a href="dev.html#dev-projects">Development</a>
+                    </div>
+                </li>
+                <li><a href="code.html">Coding Examples</a></li>
+                <li><a href="course.html">SCS Scheme</a></li>
+                <li><a id="primary-nav__contact" href="#contact">Contact</a></li>
+            </ul>
+            <ul class="primary-nav__socials">
+                <li>
+                    <a href="https://www.linkedin.com/in/esmee-fulcher-261b3321a/" target="_blank">
+                        <i class="devicon-linkedin-plain social link"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Esmee29/" target="_blank">
+                        <i class="devicon-github-original social git"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/esmeefdesigns/" target="_blank">
+                        <i class="fa-brands fa-instagram social insta"></i>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+</aside>
+            <div class="main-body" id="main">
+                <div class="header" id="header">
+                    <!--Content before waves-->
+                    <div class="inner-header">
+                        <h1 id="header1"> Esmee Fulcher</h1>
+                        <div class="container-bubble">
+                            I'm a <span id="bubble" class="bubble">
+                                <span id="dynamic-text" class="dynamic-text"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="scroll-down">
+                        <a href="#projects" class="scroll">
+                            <i class="fa-solid fa-arrow-down footer-arrow"></i>
+                            <br>
+                            <h4>Scroll down</h4>
+                        </a>
+                    </div>
+                    <!--Waves Container-->
+                    <div>
+                        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                            <defs>
+                                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                            </defs>
+                            <g class="parallax">
+                                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                            </g>
+                        </svg>
+                    </div>
+                    <!--Waves end-->
+                
+                </div>
+                <div class="page-content"><!--Everything under header -->
+                    <section id="dev-projects" class="projects">
+                        <div class="index-title">
+                            <h2 class="h1">Developer Projects</h2>
+                        </div>
+                    
+                        <div class="project-grid">
+                            <div class="card">
+                                <img src="Images/Netmatters.webp" class="image-card" alt="Netmatters homepage project">
+                                <div class="card__content">
+                                    <p class="card__title">Netmatters Homepage</p>
+                                    <p class="card__description">A replica of the Netmatters homepage created as part of the Scion Coalition Scheme. The website was meticulously crafted using HTML, Sass/CSS, JavaScript, and PHP.</p>
+                                    <br>
+                                    <div class="card__buttons">
+                                        <a href="https://netmatters.esmee-fulcher.netmatters-scs.co.uk/" target="_blank"><button class="card__button">View Project</button></a>
+                                        <a href="https://github.com/Esmee29/Netmatters-PHP" target="_blank"><button class="card__button secondary">View Repository</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Images/contact-form.png" class="image-card" alt="Netmatters contact page project">
+                                <div class="card__content">
+                                    <p class="card__title">Netmatters Contact page</p>
+                                    <p class="card__description">This is a recreated Netmatters contact page, part of the Scion Coalition Scheme. It integrates HTML, Sass/CSS, JavaScript, and PHP to include a contact form that sends data to a database upon submission.</p>
+                                    <br>
+                                    <div class="card__buttons">
+                                        <a href="https://netmatters.esmee-fulcher.netmatters-scs.co.uk/contact-us.php" target="_blank"><button class="card__button">View Project</button></a>
+                                        <a href="https://github.com/Esmee29/Netmatters-PHP" target="_blank"><button class="card__button secondary">View Repository</button></a>
+                                    </div>
+                    
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Images/Array.png" class="image-card" alt="JavaScript-Array project">
+                                <div class="card__content">
+                                    <p class="card__title">JavaScript Array</p>
+                                    <p class="card__description">As part of the Scion Coalition Scheme assessment with Netmatters,
+                                        I created an Image-to-Email Assigner that allows users to input their email addresses and allocate images from an image API directly to their email accounts.</p>
+                                    <br>
+                                    <div class="card__buttons">
+                                        <a href="https://esmee-fulcher.netmatters-scs.co.uk/Array/" target="_blank"><button class="card__button">View Project</button></a>
+                                        <a href="https://github.com/Esmee29/JavaScript-Array" target="_blank"><button class="card__button secondary">View Repository</button></a>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            <div class="card">
+                                <img src="Images\weather-app.png" class="image-card" alt="Weather React project">
+                                <div class="card__content">
+                                    <p class="card__title">React Weather App</p>
+                                    <p class="card__description"> A responsive React application providing real-time weather updates using the OpenWeatherMap API</p>
+                                    <br>
+                                    <div class="card__buttons">
+                                        <a href="https://esmee29.github.io/weather-app/" target="_blank"><button class="card__button">View Project</button></a>
+                                        <a href="https://github.com/Esmee29/weather-app" target="_blank"><button class="card__button secondary">View Repository</button></a>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                    
+                    </section>        </div>
+        
+        
+        
+                
+        
+                <footer>
+            <div class="footer">
+                <div class="scroll-container">
+                    <a href="#header" class="scroll">
+                        <i class="fa-solid fa-arrow-up footer-arrow"></i>
+                        <br>
+                        <h4>Back to top</h4>
+                    </a>
+                </div>
+        
+                <!--Waves Container-->
+                <div>
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                        </g>
+                    </svg>
+                </div>
+                <!--Waves end-->
+        
+            </div>
+        
+        
+        
+        </footer>
+        </div>
+
+
+
+<script src="javaScript/slick-1.8.1/jquery-3.7.1.min.js"></script>
+<script src="javaScript/slick-1.8.1/slick/slick.min.js"></script>
+<script src="javaScript/main.js"></script>
+<script src="javaScript/navSidebar.js"></script>
+<script src="javaScript/form-validation.js"></script>
+<script src="javaScript/slide-show.js"></script>
+<script src="javaScript/dropdown.js"></script>
+</body>
+</html>
